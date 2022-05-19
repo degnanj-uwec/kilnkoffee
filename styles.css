@@ -1,0 +1,149 @@
+body{
+    background-color: #4b634a;
+}
+header{
+    background-color: #b6f0b1;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Abril Fatface', cursive;
+}
+header>img{
+    max-width: 13rem;
+    margin: 1rem;
+}
+header>nav>a{
+    background-color: #4b634a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    padding: .5rem;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container>img{
+    width: 100%;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1rem;
+    text-shadow: 2px 2px #000000;
+}
+.ourmenu{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: white;
+}
+.ourmenu>a>img{
+    text-align: center;
+    max-width: 70%;
+    padding: 1rem;
+}
+.hoursmain{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: white;
+}
+.hoursmain>h3{
+    font-size: 20px;
+}
+.ourlocation{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: white;
+}
+.ourlocation>h3{
+    font-size: 20px
+}
+.aboutkk{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #7ca379;
+    padding: 1rem;
+}
+.aboutkk>p{
+    font-family: 'Roboto', sans-serif;
+}
+.aboutpic>img{
+    max-width: 100%;
+}
+.owner{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+.owner>p{
+    font-family: 'Roboto', sans-serif;
+}
+.owner>img{
+    max-width: 60%;
+}
+.contactus{
+    text-align: center;
+    color: #ffff;
+}
+.contactus>h3>a{
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+}
+.contactus>h3>a:hover{
+    color: yellow;
+}
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+    color: white;
+}
+form{
+    background-color: #7ca379;
+    padding: 1rem 2rem;
+    width: 50rem;
+    max-width:calc(90% - 4rem);
+    margin: 1rem auto;
+}
+input[type=text], [type=tel], [type=email]{
+    font-size: 1.25rem;
+    width: calc(100% - 1rem);
+    border: 3px solid #99c995;
+}
+.contactusall{
+    background-image: url(images/espressotool.jpg);
+    background-size: cover;
+    padding: 1rem;
+}
+.column{
+    flex: 50%;
+    padding: 0 4px;
+    display: inline-block
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    max-height: 20rem;
+}
+.studio{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+    position: absolute;
+}
+.events img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
